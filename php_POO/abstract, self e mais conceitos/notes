@@ -1,0 +1,3 @@
+objetos "abtract class" nao podem ser instanciada a classe abstrata sirva apenas para ser chamada
+
+self serve apenas para metodos estaticos dentro da propria classe 

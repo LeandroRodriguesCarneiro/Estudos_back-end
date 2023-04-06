@@ -1,0 +1,49 @@
+<?php
+classe 'nome da classe'{
+atributos sao as variaveis = propriedade 
+metodo = funcao
+
+
+
+
+}
+heranca = capaciade replicar caracteristicas de um objeto pra outro;
+exemplo = uma caneta azul bic = atributo = tampa na cor azul
+                                metodo = escrever
+eh o objeto principal, com a heranca posso copiar o objeto principal 
+e alterar o atributo = a caneta com uma tampa de outra cor 
+e alterar o metodo = alem de escrever agora ela prende papel
+pode estender o comportamento da funcao agora ela ira escrever com outra cor
+
+polimorfismo = depois q um objeto eh herdado tras todas as caracteristicas
+do objeto principal algumas caracteristicas precisam ser reescretas por completo
+reescrita de um metodo herdado de uma classe sem usar nenhum comportamento da 
+classe principal para esse metodo
+exemplo = agora o metodo escrever foi rescrito para apagar em vez de escrever
+_____________________________________________________________________________________________________
+encapsulamento = esconder detalhes da implementacao do objeto expondo somente 
+o que pode ser acessado publicamente atributo privado so pode ser alterado pelas funcoes
+
+public/private
+
+exemplo = para encapsular as canetas o atributo tampa seja de leitura todas as
+canetas criadas a partir dessa heranca teriam q ter a tampa azul
+
+exemplo 2 = duas funcoes na caneta azul bic tem a funcao de tampar e destampar 
+internamente o atributo que diz que esta despanda ou tampada esse atributo so 
+pode ser modificado por essas 2 funcoes e nada mais por isso esse atributo deve
+ser escondido tambem chamado de privado e somente as funcoes tem o poder de 
+alteralo
+________________________________________________________________________________________________________
+abstracao = representar um objeto de forma abstrata que seja obrigatoriamente herdado 
+de outras, classes mas a implementacao precisa ser de subclasses por isso e chamada de 
+template ou identidade sempre chamada de super classe nao pode ser criado um objeto 
+diretamente dessa classe
+exemplo = caneta desmontada pode ser a super classe caneta nao executa funcao mas tem 
+todas caracteristicas para ser uma caneta mas so podera ser uma se tiver uma subclasse 
+sendo criada apartir dela
+
+
+
+
+?>
